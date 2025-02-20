@@ -1,0 +1,126 @@
+body {
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+.BGColor {
+    background: #0c3e11;
+}
+@font-face {
+    font-family: 'BFont';
+    src: url('../breaking_b/Breaking\ Bad.ttf') format('truetype');
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.quote {
+    font-family: 'BFont', serif;
+    font-size: 25px;
+    margin: 20px 0;
+}
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    margin-top: 20px;
+}
+table {
+    
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #2B2C24; 
+    color: white; 
+    border: 5px solid #2B2C24; 
+    table-layout: fixed;
+}
+table.Tabla2{
+    width: 850px;
+    height: 100px;
+    
+}
+
+
+td {
+    border: 10px solid #2B2C24; 
+    table-layout: fixed;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 11px;
+    color: #2B2C24;
+    background-color: #B8DD13;
+    
+    font-weight: bold;
+    
+}
+
+td.vacio {
+    border: 10px solid #2B2C24;
+    
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    color: #2B2C24;
+    background-color: #2B2C24;
+    overflow: hidden;
+}
+td img{
+    width: 70px;    
+    height: 70px;  
+}
+td.hank{
+    background-image: url('../img/Tabla periódica/hankschrader.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 0;
+}
+
+p.Letras {
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+td.gris {
+    background-color: #BCC49F;
+}
+td.azul {
+    background-color: #AE91CD;
+}
+td.verde {
+    background-color: #B9DC20;
+}
+td.verdeclaro {
+    background-color: #C5E24A;
+}
+td.amarillo {
+    background-color: #D6E97C;
+}
+td.blanco{
+    background-color: #EDF2D0;
+}
+td.marron{
+    background-color: #637027;
+}
+td.verdeoscuro{
+    background-color: #828E4C;
+}
+
+
+
+
+
+
